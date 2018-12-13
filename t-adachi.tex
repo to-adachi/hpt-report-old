@@ -7,29 +7,66 @@
 
 \title{ミーティング資料}
 \author{安達智哉\\to-adachi@ist.osaka-u.ac.jp}
-\date{平成30年12月10日}
+\date{平成30年12月13日}
 
 \begin{document}
 \maketitle
 
 \section{vEPCを想定した負荷分散モデルの検討}
-3GPP標準に基づく負荷分散方式を、他方式と比較するような研究を行おうと考えている。他方式として具体的にはvEPC間の負荷分散方式を想定している。vEPC想定したネットワーク構成のモデル案を以下の図\ref{vEPC_model}に示す。このモデルでは、ネットワークに分散しているvEPCの中から適切なvEPCを選択し、それを経由するようにシグナリングを設定する。この仕組みにより負荷分散が可能である。このモデルの評価を行う上で大切なことは、vEPC間のState同期によるオーバヘッドを考慮することである。実際、文献\cite{PerformanceComparisonofStateSynchronizationTechniquesinaDistributedLTEEPC}によると、MME間のState同期のオーバヘッドより、最大71\%の性能低下が発生すると結論づけている。また、Stateの同期頻度にも複数の実装があると述べており、メッセージごとに同期を行う方法とセッションごとに同期を行う方法でオーバヘッドが変化すると述べている。そのため、評価指標の一つとして、vEPC間のState同期のオーバヘッドを取り入れようと考えている。
+3GPP標準に基づく負荷分散方式を、他方式と比較するような研究を行おうと考えている。他方式として具体的にはvEPC間の負荷分散方式を想定している。vEPC想定したネットワーク構成のモデル案を以下の図\ref{vEPC}に示す。このモデルでは、ネットワークに分散しているvEPCの中から適切なvEPCを選択し、それを経由するようにシグナリングを設定する。この仕組みにより負荷分散が可能である。このモデルの評価を行う上で大切なことは、vEPC間のState同期によるオーバヘッドを考慮することである。実際、文献\cite{PerformanceComparisonofStateSynchronizationTechniquesinaDistributedLTEEPC}によると、MME間のState同期のオーバヘッドより、最大71\%の性能低下が発生すると結論づけている。また、Stateの同期頻度にも複数の実装があると述べており、メッセージごとに同期を行う方法とセッションごとに同期を行う方法でオーバヘッドが変化すると述べている。そのため、評価指標の一つとして、vEPC間のState同期のオーバヘッドを取り入れようと考えている。
 
 
-また、vEPCを用いたネットワーク構成として、データプレーンをSDNを用いて制御するモデルも想定することができる。図\ref{vEPC_SDN_model}には、図\ref{vEPC_model}に示したモデルにSDNを適用したモデルである。vEPCにSDNコントローラが存在し、SDNスイッチに指示することでデータプレーンを制御する。この際、SDNコントローラにはSGW-CおよびPGW-Cの機能を持たせる必要があり、SDNスイッチは、S/PGWの機能を持つように拡張する必要がある。
-\begin{figure}[htbp]
+また、vEPCを用いたネットワーク構成として、データプレーンをSDNを用いて制御するモデルも想定することができる。図\ref{vEPC_SDN}には、図\ref{vEPC_model}に示したモデルにSDNを適用したモデルである。vEPCにSDNコントローラが存在し、SDNスイッチに指示することでデータプレーンを制御する。この際、SDNコントローラにはSGW-CおよびPGW-Cの機能を持たせる必要があり、SDNスイッチは、S/PGWの機能を持つように拡張する必要がある。図\ref{vEPC}と比較すると、こちらの方式の方が、データプレーンの経路を短くできることが分かる。また、SDNの制御により、帯域の使用率に応じて、データプレーンの経路を変化させることも可能である。そのため、vEPCのCPU使用率に基づいた負荷分散と同時に、リンク帯域の使用率に応じた負荷分散が可能になると考えられる。
+
+\begin{figure}[p]
 	\centering
-	\includegraphics[width=0.7\hsize]{vEPC_model.pdf}
-  \caption{vEPCを想定したネットワークモデル(案)}
-	\label{vEPC_model}
+		\begin{subfigure}{1.0\textwidth}
+		\centering
+			\includegraphics[width=0.5\hsize]{vEPC_before.pdf}
+			\caption{before}
+			\label{vEPC_before}
+		\end{subfigure}
+		\begin{subfigure}{1.0\textwidth}
+		\centering
+			\includegraphics[width=0.5\hsize]{vEPC_after.pdf}
+			\caption{after}
+			\label{vEPC_after}
+		\end{subfigure}
+		\caption{vEPCを想定したネットワークモデル(案)}
+		\label{vEPC}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[p]
 	\centering
-	\includegraphics[width=0.7\hsize]{vEPC_SDN_model.pdf}
-  \caption{vEPCを想定したネットワークモデル(案2)}
-	\label{vEPC_SDN_model}
+		\begin{subfigure}{1.0\textwidth}
+		\centering
+			\includegraphics[width=0.5\hsize]{vEPC_SDN_before.pdf}
+			\caption{before}
+			\label{vEPC_SDN_before}
+		\end{subfigure}
+		\begin{subfigure}{1.0\textwidth}
+		\centering
+			\includegraphics[width=0.5\hsize]{vEPC_SDN_after.pdf}
+			\caption{after}
+			\label{vEPC_SDN_after}
+		\end{subfigure}
+		\caption{vEPCを想定したネットワークモデル(案2)}
+		\label{vEPC_SDN}
 \end{figure}
+
+% \begin{figure}[htbp]
+% 	\centering
+% 	\includegraphics[width=0.7\hsize]{vEPC_model.pdf}
+%   \caption{vEPCを想定したネットワークモデル(案)}
+% 	\label{vEPC_model}
+% \end{figure}
+%
+% \begin{figure}[htbp]
+% 	\centering
+% 	\includegraphics[width=0.7\hsize]{vEPC_SDN_model.pdf}
+%   \caption{vEPCを想定したネットワークモデル(案2)}
+% 	\label{vEPC_SDN_model}
+% \end{figure}
 
 \clearpage
 

@@ -27,6 +27,12 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/bbding/bbding.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/bbding/bbding.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 INPUT t-adachi.aux
 INPUT t-adachi.aux
 OUTPUT t-adachi.aux
@@ -51,9 +57,11 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT vEPC_before.pdf
 INPUT extractbb -B cropbox -O vEPC_before.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT vEPC_after.pdf
 INPUT extractbb -B cropbox -O vEPC_after.pdf
 INPUT vEPC_SDN_before.pdf

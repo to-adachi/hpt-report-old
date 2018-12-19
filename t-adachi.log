@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2017.9.15)  13 DEC 2018 18:36
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2017.9.15)  14 DEC 2018 08:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -59,311 +59,144 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@tempdima=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionskip \iftdir \sbox \@tempboxa {#1\hskip 1zw#2}\else \sbox \@tempboxa {#1: #2}\fi \ifdim \wd \@tempboxa >\hsize \iftdir #1\hskip 1zw#2\relax \par \else #1: #2\relax \par \fi \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip .
+\c@ContinuedFloat=\count92
+)
+\c@subfigure=\count93
+\c@subtable=\count94
 ) (./t-adachi.aux)
 \openout1 = `t-adachi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 13.
+(Font)              scaled to size 16.62714pt on input line 14.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 16.62714pt on input line 13.
+(Font)              scaled to size 16.62714pt on input line 14.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 13.
+(Font)              scaled to size 11.54663pt on input line 14.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 13.
+(Font)              scaled to size 11.54663pt on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
+(Font)              <6> on input line 14.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 13.
+(Font)              scaled to size 7.69775pt on input line 14.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 13.
+(Font)              scaled to size 5.77332pt on input line 14.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
+(Font)              scaled to size 13.85594pt on input line 16.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
+(Font)              scaled to size 13.85594pt on input line 16.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
+(Font)              scaled to size 13.85594pt on input line 16.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 15.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 19.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 19.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 19.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 19.
-
-
-LaTeX Warning: Reference `vEPC_model' on page 1 undefined on input line 19.
-
-
-./t-adachi.tex:23: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ^^I^^I\begin{subfigure}
-                            {1.0\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./t-adachi.tex:23: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.23 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./t-adachi.tex:23: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.23 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+(Font)              scaled to size 13.85594pt on input line 16.
 File: vEPC_before.pdf Graphic file (type pdf)
 <vEPC_before.pdf>
-
-./t-adachi.tex:28: LaTeX Error: \begin{figure} on input line 21 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ^^I^^I\end{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./t-adachi.tex:29: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ^^I^^I\begin{subfigure}
-                            {1.0\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./t-adachi.tex:29: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.29 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./t-adachi.tex:29: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.29 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 27.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 29.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 29.
 File: vEPC_after.pdf Graphic file (type pdf)
 <vEPC_after.pdf>
-
-./t-adachi.tex:34: LaTeX Error: \begin{figure} on input line 21 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ^^I^^I\end{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./t-adachi.tex:41: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ^^I^^I\begin{subfigure}
-                            {1.0\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./t-adachi.tex:41: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.41 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./t-adachi.tex:41: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.41 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 File: vEPC_SDN_before.pdf Graphic file (type pdf)
 <vEPC_SDN_before.pdf>
-
-./t-adachi.tex:46: LaTeX Error: \begin{figure} on input line 39 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 ^^I^^I\end{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./t-adachi.tex:47: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ^^I^^I\begin{subfigure}
-                            {1.0\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./t-adachi.tex:47: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.47 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./t-adachi.tex:47: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.47 ^^I^^I\begin{subfigure}{1.0\textwidth}
-                                           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 File: vEPC_SDN_after.pdf Graphic file (type pdf)
 <vEPC_SDN_after.pdf>
-
-./t-adachi.tex:52: LaTeX Error: \begin{figure} on input line 39 ended by \end{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ^^I^^I\end{subfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
+ [1
 
 ] [2] [3]
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 75.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 75.
+(Font)              scaled to size 11.54663pt on input line 76.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 75.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.54663pt on input line 75.
+(Font)              scaled to size 11.54663pt on input line 76.
  [4
 
 ]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 89.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 89.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 93.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 93.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 93.
+(Font)              scaled to size 6.73553pt on input line 90.
  (I search kanjifont definition file: . . ) (I search font definition file: . . . . . . . )
-LaTeX Font Info:    Try loading font information for JT2+ding on input line 96.
-LaTeX Font Info:    No file JT2ding.fd. on input line 96.
+LaTeX Font Info:    Try loading font information for JT2+ding on input line 97.
+LaTeX Font Info:    No file JT2ding.fd. on input line 97.
 
 
 LaTeX Font Warning: Font shape `JT2/ding/m/n' undefined
-(Font)              using `JT2/mc/m/n' instead on input line 96.
+(Font)              using `JT2/mc/m/n' instead on input line 97.
 
-LaTeX Font Info:    Try loading font information for JY2+ding on input line 96.
-LaTeX Font Info:    No file JY2ding.fd. on input line 96.
+LaTeX Font Info:    Try loading font information for JY2+ding on input line 97.
+LaTeX Font Info:    No file JY2ding.fd. on input line 97.
 
 LaTeX Font Warning: Font shape `JY2/ding/m/n' undefined
-(Font)              using `JY2/mc/m/n' instead on input line 96.
+(Font)              using `JY2/mc/m/n' instead on input line 97.
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 96.
+LaTeX Font Info:    Try loading font information for U+ding on input line 97.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 ) [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 140.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
  (./t-adachi.bbl
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 6.73553pt on input line 28.
@@ -391,17 +224,14 @@ Missing character: There is no ^^c4 in font cmr7!
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 1013 strings out of 493644
- 14833 string characters out of 6149000
- 88192 words of memory out of 5000000
- 4622 multiletter control sequences out of 15000+600000
- 11877 words of font info for 55 fonts, out of 8000000 for 9000
+ 2144 strings out of 493644
+ 35236 string characters out of 6149000
+ 118509 words of memory out of 5000000
+ 5744 multiletter control sequences out of 15000+600000
+ 12139 words of font info for 57 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 25i,8n,21p,1346b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,1346b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on t-adachi.dvi (7 pages, 28104 bytes).
+Output written on t-adachi.dvi (7 pages, 28184 bytes).

@@ -52,10 +52,18 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT detach.dvi
-INPUT グラフ.pdf
-INPUT extractbb -B cropbox -O グラフ.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT overcpu.pdf
+INPUT extractbb -B cropbox -O overcpu.pdf
+INPUT okcpu.pdf
+INPUT extractbb -B cropbox -O okcpu.pdf
+INPUT overmemory.pdf
+INPUT extractbb -B cropbox -O overmemory.pdf
+INPUT okmemory.pdf
+INPUT extractbb -B cropbox -O okmemory.pdf
+INPUT scaleout.pdf
+INPUT extractbb -B cropbox -O scaleout.pdf
 INPUT detach-ON.pdf
 INPUT extractbb -B cropbox -O detach-ON.pdf
 INPUT detach-OFF.pdf

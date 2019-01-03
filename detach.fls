@@ -27,6 +27,12 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/bbding/bbding.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/bbding/bbding.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 INPUT detach.aux
 INPUT detach.aux
 OUTPUT detach.aux
@@ -54,22 +60,21 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT detach.dvi
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT overcpu.pdf
-INPUT extractbb -B cropbox -O overcpu.pdf
-INPUT okcpu.pdf
-INPUT extractbb -B cropbox -O okcpu.pdf
-INPUT overmemory.pdf
-INPUT extractbb -B cropbox -O overmemory.pdf
-INPUT okmemory.pdf
-INPUT extractbb -B cropbox -O okmemory.pdf
-INPUT scaleout.pdf
-INPUT extractbb -B cropbox -O scaleout.pdf
+INPUT plot1.pdf
+INPUT extractbb -B cropbox -O plot1.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT plot2.pdf
+INPUT extractbb -B cropbox -O plot2.pdf
+INPUT plot3.pdf
+INPUT extractbb -B cropbox -O plot3.pdf
+INPUT plot4.pdf
+INPUT extractbb -B cropbox -O plot4.pdf
 INPUT detach-ON.pdf
 INPUT extractbb -B cropbox -O detach-ON.pdf
 INPUT detach-OFF.pdf
 INPUT extractbb -B cropbox -O detach-OFF.pdf
 INPUT detach-reON.pdf
 INPUT extractbb -B cropbox -O detach-reON.pdf
-INPUT detach.bbl
-INPUT detach.bbl
 INPUT detach.aux

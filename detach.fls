@@ -67,14 +67,13 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT plot2.pdf
 INPUT extractbb -B cropbox -O plot2.pdf
-INPUT plot3.pdf
-INPUT extractbb -B cropbox -O plot3.pdf
-INPUT plot4.pdf
-INPUT extractbb -B cropbox -O plot4.pdf
 INPUT detach-ON.pdf
 INPUT extractbb -B cropbox -O detach-ON.pdf
 INPUT detach-OFF.pdf
 INPUT extractbb -B cropbox -O detach-OFF.pdf
 INPUT detach-reON.pdf
 INPUT extractbb -B cropbox -O detach-reON.pdf
+INPUT detach.bbl
+INPUT detach.bbl
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT detach.aux

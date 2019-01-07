@@ -1,9 +1,17 @@
 # Fdb version 3
-["dvipdf"] 1546544551 "detach.dvi" "detach.pdf" "detach" 1546544554
-  "detach.dvi" 1546544551 19036 6ab8079e08ddf80704645c9936dc8b4c "latex"
+["bibtex detach"] 1546820979 "detach.aux" "detach.bbl" "detach" 1546821008
+  "/Users/t-adachi/Documents/study/Bibliography/bib/hpt_core_network/Study_Group_Bibtex/bib/hptCoreNetwork_Study.bib" 1545057311 35746 0b89cb9f37e4b32da6456d5476d1dd4a ""
+  "/Users/t-adachi/Documents/study/Bibliography/bib/hpt_core_network/myBib/LABbiblio.bib" 1546820905 69387 bd84b26ad6aa60e77e9ed5662c6cd345 ""
+  "/usr/local/texlive/2017/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
+  "detach.aux" 1546821006 2459 c55e441465bea10b27436534a5d77a84 ""
+  (generated)
+  "detach.bbl"
+  "detach.blg"
+["dvipdf"] 1546821006 "detach.dvi" "detach.pdf" "detach" 1546821008
+  "detach.dvi" 1546821006 19992 77d48cae0f6ad8d6339acb5fda192188 "latex"
   (generated)
   "detach.pdf"
-["latex"] 1546544549 "detach.tex" "detach.dvi" "detach" 1546544554
+["latex"] 1546821005 "detach.tex" "detach.dvi" "detach" 1546821008
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -18,6 +26,7 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1480098701 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1480098701 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1480098701 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm" 1480098720 780 9d56a8f9483b0d090553358c515b7835 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm" 1480098720 504 db18a8c0bf0b51f5d6237cc98872380d ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm" 1480098720 780 9d56a8f9483b0d090553358c515b7835 ""
@@ -39,22 +48,19 @@
   "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
   "/usr/local/texlive/2017/texmf-var/web2c/euptex/uplatex.fmt" 1505440380 4338250 41983557c21b6da30b6d682855b508ba ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "detach-OFF.pdf" 1545203757 46406 1518adf47f522c6fa2f0d45c513709f5 ""
-  "detach-ON.pdf" 1544715221 48882 17b0679d384752ad344121190c13f7be ""
-  "detach-reON.pdf" 1545203757 46894 94154ec616fda946c676bf4e9acad888 ""
-  "detach.aux" 1546544551 2298 980a7ff21238bb12367b60e518ca43f8 ""
-  "detach.tex" 1546544549 15860 0319e85e74b9a11f579b7580db62b907 ""
+  "detach-OFF.pdf" 1546784947 50448 cf19f968f4ea67fd7431b993f4b3b2ed ""
+  "detach-ON.pdf" 1546784947 53079 5a24afef387b52cdefb53cf982ad1dc5 ""
+  "detach-reON.pdf" 1546784947 51024 8e3f6207a0e2c3ea52e2dafe2c2da55f ""
+  "detach.aux" 1546821006 2459 c55e441465bea10b27436534a5d77a84 ""
+  "detach.bbl" 1546820979 1165 0b723615cf5a3b625ae1b1c1a2cb9cf5 "bibtex detach"
+  "detach.tex" 1546821004 15860 be9ccba3a4385e4854d7f7b83c75936b ""
   "extractbb -B cropbox -O detach-OFF.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O detach-ON.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O detach-reON.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O plot1.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O plot2.pdf" 0 -1 0 ""
-  "extractbb -B cropbox -O plot3.pdf" 0 -1 0 ""
-  "extractbb -B cropbox -O plot4.pdf" 0 -1 0 ""
   "plot1.pdf" 1546527503 91233 22f62c7ab852eca9ab4fdfee2e6e77b9 ""
   "plot2.pdf" 1546527531 103202 ea609c5fc094c2c259e300b58d22acbd ""
-  "plot3.pdf" 1546527551 91516 85a85e75448862bcfda476119577a98c ""
-  "plot4.pdf" 1546527569 103212 50b343ba3d0f77df9fbc3214ca5eaa19 ""
   (generated)
   "detach.aux"
   "detach.dvi"
